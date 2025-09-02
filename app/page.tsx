@@ -92,14 +92,17 @@ function ProjectVideo({ src }: ProjectVideoProps) {
 function MagneticSocialLink({
   children,
   link,
+  newTab = false,
 }: {
   children: React.ReactNode
   link: string
+  newTab?: boolean
 }) {
   return (
     <Magnetic springOptions={{ bounce: 0 }} intensity={0.3}>
       <a
         href={link}
+        target={newTab ? '_blank' : '_self'}
         className="group relative inline-flex shrink-0 items-center gap-[1px] rounded-full bg-zinc-100 px-2.5 py-1 text-sm text-black transition-colors duration-200 hover:bg-zinc-950 hover:text-zinc-50 dark:bg-zinc-800 dark:text-zinc-100 dark:hover:bg-zinc-700"
       >
         {children}
@@ -140,6 +143,15 @@ export default function Personal() {
             Software engineer with proven experience in fintech, specializing in developing secure and scalable web applications.
             Adept at leading teams, optimizing backend systems, and delivering impactful technology solutions
           </p>
+          <div className="mt-5">
+            <MagneticSocialLink
+              key="Resume"
+              link="https://drive.google.com/file/d/10wEi5z47X4xZaQiTHNG-NNOiSj2w3Dlp/view?usp=sharing"
+              newTab={true}
+            >
+              Resume
+            </MagneticSocialLink>
+          </div>
         </div>
       </motion.section>
 

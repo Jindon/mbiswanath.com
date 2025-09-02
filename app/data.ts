@@ -93,16 +93,16 @@ export const BLOG_POSTS: BlogPost[] = [
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
+    label: 'LinkedIn',
+    link: 'https://www.linkedin.com/in/mbiswanath',
+  },
+  {
     label: 'Github',
     link: 'https://github.com/Jindon',
   },
   {
     label: 'Twitter',
     link: 'https://x.com/mbiswanath27',
-  },
-  {
-    label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/mbiswanath',
   },
 ]
 
