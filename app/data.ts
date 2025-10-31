@@ -51,10 +51,18 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
   {
     company: 'Aspire',
     title: 'Lead Software Engineer',
-    start: '2022',
+    start: '2024',
     end: 'Present',
     link: 'https://aspireapp.com/',
-    id: 'work1',
+    id: 'work5',
+  },
+  {
+    company: 'Aspire',
+    title: 'Senior Software Engineer',
+    start: '2022',
+    end: '2024',
+    link: 'https://aspireapp.com/',
+    id: 'work4',
   },
   {
     company: 'Subdine',
@@ -62,7 +70,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     start: '2021',
     end: '2022',
     link: 'https://in.linkedin.com/company/subdine',
-    id: 'work2',
+    id: 'work3',
   },
    {
     company: 'Neopath Technologies Pvt Ltd',
@@ -70,7 +78,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     start: '2018',
     end: '2021',
     link: 'https://neopathtech.com/',
-    id: 'work3',
+    id: 'work2',
   },
   {
     company: 'Freelance',
@@ -78,7 +86,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     start: '2015',
     end: '2018',
     link: '#',
-    id: 'work4',
+    id: 'work1',
   },
 ]
 
