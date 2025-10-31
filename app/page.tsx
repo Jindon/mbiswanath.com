@@ -146,7 +146,7 @@ export default function Personal() {
           <div className="mt-5">
             <MagneticSocialLink
               key="Resume"
-              link="https://drive.google.com/file/d/10wEi5z47X4xZaQiTHNG-NNOiSj2w3Dlp/view?usp=sharing"
+              link="https://drive.google.com/file/d/19WYwc0XQEPn62h9Oc-STZX2S-iLphGPP/view?usp=sharing"
               newTab={true}
             >
               Resume
